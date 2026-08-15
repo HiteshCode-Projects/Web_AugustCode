@@ -1,1 +1,12 @@
-My Name is Ayush and I am Learning Web Development
+My Name is Ayush and I am Learning 
+
+PS C:\Users\dhava\OneDrive\Desktop\sinchu> git init
+Initialized empty Git repository in C:/Users/dhava/OneDrive/Desktop/sinchu/.git/
+PS C:\Users\dhava\OneDrive\Desktop\sinchu> git add .
+PS C:\Users\dhava\OneDrive\Desktop\sinchu> git commit -m "frist time"
+Author identity unknown
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+ sir i am this type of problem
