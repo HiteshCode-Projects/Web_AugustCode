@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Data type 1: - Different Types of Data
+
+        //1. String - "Anythinhg under quotes" or 'text'
+
+            let email = "abc@gmail.com"
+
+            let city = 'mumbai'
+       
+            // InBuild Methods (Task- Check Data type of Value) - Features of Programming Lang which we can use direclty
+
+            console.log( typeof(city)  )
+
+
+         //2. Number - +ve , -ve , decimal 
+         
+         let age = 23
+
+         let temp = -2
+
+         let price = 99.99
+
+         console.log(typeof(temp))
+
+
+         //3.Boolean - true or false
+
+         let loginStatus = false
+
+         let NetflixSub = true
+
+         console.log(typeof(NetflixSub))
+
+
+         //4 undefined - When no value is assigned
+
+         let score 
+
+         console.log(typeof(score))
+
+
+         //5 null - Intentionally empty value
+
+         let discount = null
+
+         console.log(typeof(discount))
+
+         //Note : It shows object as result due to bug in js 
+
+
+         //Data Type 2:  Multiple data
+
+
+         //1. Array - Stores Multiple Data and in JS Array It can also store data of diffrent data types
+
+         //symbol - [ ]  - sqaure bracket
+         //Rule - Index no(Position No) starts with 0
+
+         let students = ["Sathya" , "Thaha" , "Aaryan" , "John" , 1212 , true]
+
+         console.log(students)
+
+         //Access The data through indexno
+         console.log(students[2])   //Aaryan
+         console.log(students[4])  //1212
+         console.log(students[7])  //undefined
+
+
+
+         //2. Object - Collection of Prop(Data) - key:value Pair format
+        // Symbol - { } curly Bracket
+
+
+        const employee = {
+           //Key(left):Value(Right)
+
+           name:"Bhavana",
+
+           email:"abc@hmail.com" ,
+
+           loginStatus:false
+
+        }
+
+        console.log(employee)
+
+        console.log(employee.loginStatus)
+        console.log(employee.email)
+
+
+
+
+
+
+    </script>
+</body>
+</html>
