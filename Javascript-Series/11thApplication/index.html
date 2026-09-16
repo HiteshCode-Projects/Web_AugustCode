@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Draw a Dice and Find The Lucky No 
+
+        //Dice - Numbers Between 1 to 6
+
+        let luckyNo =Math.floor(  Math.random() * 6 ) + 1
+       //  console.log(luckyNo)
+
+
+       while(true){
+
+
+      let  guessNo = prompt("Enter your No Between 1 to 6")
+
+      //Winning Condition 
+      if(luckyNo == guessNo){
+                
+        alert(' You Won The Game ')
+        break;   //Break Means To Stop
+
+      }else{
+        alert('Better Luck Next Time')
+      }
+
+
+
+
+       }
+
+    </script>
+</body>
+</html>

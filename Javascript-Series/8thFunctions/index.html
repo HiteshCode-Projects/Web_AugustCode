@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          
+          //Function - Help us to do a Specific Task , Example- Additon, CalculateBill
+
+          //1. function keyword Functionname() { Tasl  }
+
+          function Greet(){
+                         //Body- Instruction/Task
+                console.log("Good evening user")         
+          }
+
+          Greet()  //Calling the Function
+
+          //2. function with Parameter(parameter/argument- Dummy Variable)
+
+          function greeting(name){
+                   
+            console.log(` Good evening ${name} , welcome Back   `)
+
+          }
+
+          greeting("Aarayn")
+          greeting("Roshini")
+          greeting("Aman")
+
+
+
+          //3. function with return type
+
+          function TotlBill(price , quantity){
+            
+            return price * quantity   //To Give Something back
+
+          }
+
+        let result =  TotlBill(100,2)  //Function return the value of 200
+        console.log(result)
+
+
+        //4. Arrow Function => Logicn in sone Single Line
+
+      let abc =  ()=>{
+                console.log("Hello guys I am Arrow function")
+            }
+
+        abc()   //Calling The Arrow Function with varibale
+
+
+
+
+
+     </script>   
+</body>
+</html>

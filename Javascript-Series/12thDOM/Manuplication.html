@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myp">Good Morning User </p>
+
+    <button id="btn">Login</button>
+
+
+    <div id="mydiv">
+        This is Div Container
+    </div>
+
+    <p id="abc">This is Old DUll Paragraph</p>
+
+    <script>
+          
+          //1. Change The Content - textContent
+
+         const paragTag  =   document.getElementById("myp")
+
+         //   console.log(paragTag.textContent)
+
+         paragTag.textContent = "Welcome Back user"
+
+
+         const btnn = document.getElementById("btn")
+
+         btnn.textContent = "Logout"
+
+         //2. Update The tag - innerHTML
+
+         const container  =   document.getElementById("mydiv")
+
+         //Update with single HTML Tag
+
+         //  container.innerHTML =  "<h2>  This is now Heading </h2>"
+
+
+         //Multiple HTML Tag Update
+
+         container.innerHTML = `
+         <h2>Hello Guys</h2>
+         <button>Greet</button>
+         <p>This is Parapargap</p>
+         <img src="https://images.pexels.com/photos/39364123/pexels-photo-39364123.jpeg" height="150" width="150">
+         `
+
+
+         //3. Chnage Css - .style.CssPropName
+
+        const p =  document.getElementById("abc")
+
+        p.style.color = "red"
+        p.style.backgroundColor = "black"
+        p.style.textAlign ="center"
+        p.textContent = "This is new style paragaph"
+
+    </script>
+</body>
+</html>
