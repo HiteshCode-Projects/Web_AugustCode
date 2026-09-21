@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //CALL BACK : CALL BACK IS FUNCTION AND IT IS PASSED AS PARAMETER INTO ANOTHER FUNCTION (callback)
+
+        function DoHomeWokr(subject , callback){
+ 
+               console.log(`Doing Home Work for ${subject}`)
+
+               callback()  //Calling a callback function
+
+        }
+
+        DoHomeWokr("Maths" , function(){
+            console.log("Home Work Done")
+        })
+    </script>
+</body>
+</html>

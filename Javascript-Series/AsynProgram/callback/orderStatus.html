@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //CallBack Hell
+
+        function first(status,callback){
+            console.log("Order Confirmed" + status)
+
+            callback("Pizza", function(){
+                console.log("Out of Delivery")
+            })
+        }
+
+        first("Order No 123" , function(status2,callback){
+           console.log("Preapring items", status2)
+           callback()
+        })
+    </script>
+</body>
+</html>
