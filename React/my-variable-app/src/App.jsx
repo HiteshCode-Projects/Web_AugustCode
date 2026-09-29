@@ -73,19 +73,23 @@
 
 //Example 4 - Follow Button
 
-// import React from "react";
-// import { useState } from "react";
+import React from "react";
+import { useState } from "react";
+import Button from "./Addbtnn";
 
-// function App(){
+function App(){
 
-//  const [follow , setFollow] = useState(false)
+ const [follow , setFollow] = useState(false)
 
 
-//   return(
-//         <div>
-//            <button onClick={ ()=>   setFollow(!follow) }> {follow ? "Following" : "Follow"}  </button>
-//         </div>
-//   )
-// }
+  return(
+        <div>
+           <button onClick={ ()=>   setFollow(!follow) }> {follow ? "Following" : "Follow"}  </button>
+        
+         <Button />
+          
+        </div>
+  )
+}
 
-// export default App
+export default App
