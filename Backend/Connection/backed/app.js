@@ -15,7 +15,7 @@ app.use(cors())  //Enable The Cors so we can share resoucre even though having D
 //Api - 
 app.post('/login' , (req,res)=>{
 
-  //Data From Frontend - req.body 
+  //Data From Frontend is wriiten as req.body 
 
   const {name , email} = req.body
 
